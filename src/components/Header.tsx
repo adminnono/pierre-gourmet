@@ -11,7 +11,7 @@ const Header: React.FC = () => {
         <div className="text-center">
           <div className="flex justify-center mb-6">
             <img
-              src="/images/logo.jpeg"
+              src="./images/logo.jpeg"
               alt="Logo Pierre Gourmet"
               className="w-32 h-32 rounded-full object-cover shadow-lg"
             />
