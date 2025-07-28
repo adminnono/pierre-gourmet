@@ -25,8 +25,7 @@ const restaurantsData: Restaurant[] = [
     location: "Hôtel de Crillon, 75008 Paris",
     chef: "Paul Pairet",
     rating: 5,
-    image:
-      "https://images.pexels.com/photos/3184194/pexels-photo-3184194.jpeg?auto=compress&cs=tinysrgb&w=800",
+    image: "./images/nonos.jpg",
     dishes: [
       {
         name: "Beurre Aromatisé",
@@ -76,8 +75,47 @@ const restaurantsData: Restaurant[] = [
     location: "Rue de Varenne, Paris 7e",
     chef: "Hugo Roellinger",
     rating: 5,
-    image:
-      "https://images.pexels.com/photos/1640777/pexels-photo-1640777.jpeg?auto=compress&cs=tinysrgb&w=800",
+    image: "./images/coquillage.jpg",
+    dishes: [
+      {
+        name: "Légumes du potager en mille-feuille",
+        price: 85,
+        images: [
+          "https://images.pexels.com/photos/1640777/pexels-photo-1640777.jpeg?auto=compress&cs=tinysrgb&w=800",
+          "https://images.pexels.com/photos/3184194/pexels-photo-3184194.jpeg?auto=compress&cs=tinysrgb&w=800",
+        ],
+      },
+      {
+        name: "Betterave aux graines de pavot",
+        price: 65,
+        images: [
+          "https://images.pexels.com/photos/5718041/pexels-photo-5718041.jpeg?auto=compress&cs=tinysrgb&w=800",
+        ],
+      },
+      {
+        name: "Oeuf à la coque truffé",
+        price: 90,
+        images: [
+          "https://images.pexels.com/photos/2474661/pexels-photo-2474661.jpeg?auto=compress&cs=tinysrgb&w=800",
+          "https://images.pexels.com/photos/3184194/pexels-photo-3184194.jpeg?auto=compress&cs=tinysrgb&w=800",
+        ],
+      },
+      {
+        name: "Tarte aux figues et miel de châtaignier",
+        price: 38,
+        images: [
+          "https://images.pexels.com/photos/1640777/pexels-photo-1640777.jpeg?auto=compress&cs=tinysrgb&w=800",
+        ],
+      },
+    ],
+  },
+  {
+    id: 2,
+    name: "Le Pincemin",
+    location: "10 Bd du Roi, 78000 Versailles",
+    chef: "Xavier Pincemin",
+    rating: 5,
+    image: "./images/pincemin.jpg",
     dishes: [
       {
         name: "Légumes du potager en mille-feuille",
@@ -117,8 +155,7 @@ const restaurantsData: Restaurant[] = [
     location: "22 Rue d'Enghien, 75010 Paris",
     chef: "Quentin Mauro",
     rating: 5,
-    image:
-      "https://images.pexels.com/photos/5718041/pexels-photo-5718041.jpeg?auto=compress&cs=tinysrgb&w=800",
+    image: "./images/bonnomie.jpg",
     dishes: [
       {
         name: "Soupe d'artichaut à la truffe noire",
@@ -159,8 +196,7 @@ const restaurantsData: Restaurant[] = [
     location: "14 Rue Cauchy, 75015 Paris",
     chef: "Denny Imbroisi",
     rating: 5,
-    image:
-      "https://images.pexels.com/photos/5718041/pexels-photo-5718041.jpeg?auto=compress&cs=tinysrgb&w=800",
+    image: "./images/ischia.jpg",
     dishes: [
       {
         name: "Soupe d'artichaut à la truffe noire",
@@ -201,8 +237,7 @@ const restaurantsData: Restaurant[] = [
     location: "Parc des Buttes-Chaumont, 75019 Paris",
     chef: "Eric Frechon",
     rating: 4,
-    image:
-      "https://images.pexels.com/photos/2474661/pexels-photo-2474661.jpeg?auto=compress&cs=tinysrgb&w=800",
+    image: "./images/ora.webp",
     dishes: [
       {
         name: "Macaroni aux truffes et foie gras",
@@ -280,8 +315,7 @@ const RestaurantCarousel: React.FC = () => {
             <ChevronRight size={24} />
           </button>
 
-          {/* Restaurant Card */}
-          <div className="px-16">
+          <div>
             <RestaurantCard restaurant={restaurantsData[currentIndex]} />
           </div>
 
