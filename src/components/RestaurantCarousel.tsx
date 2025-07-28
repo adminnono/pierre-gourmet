@@ -30,42 +30,27 @@ const restaurantsData: Restaurant[] = [
       {
         name: "Beurre Aromatisé",
         price: 5,
-        images: [
-          "https://images.pexels.com/photos/1640777/pexels-photo-1640777.jpeg?auto=compress&cs=tinysrgb&w=800",
-          "https://images.pexels.com/photos/3184194/pexels-photo-3184194.jpeg?auto=compress&cs=tinysrgb&w=800",
-        ],
+        images: ["", ""],
       },
       {
         name: "Soufflé au vrai gruyère",
         price: 22,
-        images: [
-          "https://images.pexels.com/photos/5718041/pexels-photo-5718041.jpeg?auto=compress&cs=tinysrgb&w=800",
-        ],
+        images: [""],
       },
       {
         name: "Cœur D'Entrecôte Frites",
         price: 48,
-        images: [
-          "https://images.pexels.com/photos/2474661/pexels-photo-2474661.jpeg?auto=compress&cs=tinysrgb&w=800",
-          "https://images.pexels.com/photos/3184194/pexels-photo-3184194.jpeg?auto=compress&cs=tinysrgb&w=800",
-          "https://images.pexels.com/photos/1640777/pexels-photo-1640777.jpeg?auto=compress&cs=tinysrgb&w=800",
-        ],
+        images: ["", "", ""],
       },
       {
         name: "Sauce béarnaise",
         price: 5,
-        images: [
-          "https://images.pexels.com/photos/2474661/pexels-photo-2474661.jpeg?auto=compress&cs=tinysrgb&w=800",
-          "https://images.pexels.com/photos/3184194/pexels-photo-3184194.jpeg?auto=compress&cs=tinysrgb&w=800",
-          "https://images.pexels.com/photos/1640777/pexels-photo-1640777.jpeg?auto=compress&cs=tinysrgb&w=800",
-        ],
+        images: ["", "", ""],
       },
       {
         name: "Tarte à la Crème",
         price: 16,
-        images: [
-          "https://images.pexels.com/photos/5718041/pexels-photo-5718041.jpeg?auto=compress&cs=tinysrgb&w=800",
-        ],
+        images: [""],
       },
     ],
   },
@@ -80,32 +65,22 @@ const restaurantsData: Restaurant[] = [
       {
         name: "Légumes du potager en mille-feuille",
         price: 85,
-        images: [
-          "https://images.pexels.com/photos/1640777/pexels-photo-1640777.jpeg?auto=compress&cs=tinysrgb&w=800",
-          "https://images.pexels.com/photos/3184194/pexels-photo-3184194.jpeg?auto=compress&cs=tinysrgb&w=800",
-        ],
+        images: ["", ""],
       },
       {
         name: "Betterave aux graines de pavot",
         price: 65,
-        images: [
-          "https://images.pexels.com/photos/5718041/pexels-photo-5718041.jpeg?auto=compress&cs=tinysrgb&w=800",
-        ],
+        images: [""],
       },
       {
         name: "Oeuf à la coque truffé",
         price: 90,
-        images: [
-          "https://images.pexels.com/photos/2474661/pexels-photo-2474661.jpeg?auto=compress&cs=tinysrgb&w=800",
-          "https://images.pexels.com/photos/3184194/pexels-photo-3184194.jpeg?auto=compress&cs=tinysrgb&w=800",
-        ],
+        images: ["", ""],
       },
       {
         name: "Tarte aux figues et miel de châtaignier",
         price: 38,
-        images: [
-          "https://images.pexels.com/photos/1640777/pexels-photo-1640777.jpeg?auto=compress&cs=tinysrgb&w=800",
-        ],
+        images: [""],
       },
     ],
   },
@@ -120,32 +95,22 @@ const restaurantsData: Restaurant[] = [
       {
         name: "Légumes du potager en mille-feuille",
         price: 85,
-        images: [
-          "https://images.pexels.com/photos/1640777/pexels-photo-1640777.jpeg?auto=compress&cs=tinysrgb&w=800",
-          "https://images.pexels.com/photos/3184194/pexels-photo-3184194.jpeg?auto=compress&cs=tinysrgb&w=800",
-        ],
+        images: ["", ""],
       },
       {
         name: "Betterave aux graines de pavot",
         price: 65,
-        images: [
-          "https://images.pexels.com/photos/5718041/pexels-photo-5718041.jpeg?auto=compress&cs=tinysrgb&w=800",
-        ],
+        images: [""],
       },
       {
         name: "Oeuf à la coque truffé",
         price: 90,
-        images: [
-          "https://images.pexels.com/photos/2474661/pexels-photo-2474661.jpeg?auto=compress&cs=tinysrgb&w=800",
-          "https://images.pexels.com/photos/3184194/pexels-photo-3184194.jpeg?auto=compress&cs=tinysrgb&w=800",
-        ],
+        images: ["", ""],
       },
       {
         name: "Tarte aux figues et miel de châtaignier",
         price: 38,
-        images: [
-          "https://images.pexels.com/photos/1640777/pexels-photo-1640777.jpeg?auto=compress&cs=tinysrgb&w=800",
-        ],
+        images: [""],
       },
     ],
   },
@@ -160,33 +125,22 @@ const restaurantsData: Restaurant[] = [
       {
         name: "Soupe d'artichaut à la truffe noire",
         price: 75,
-        images: [
-          "https://images.pexels.com/photos/5718041/pexels-photo-5718041.jpeg?auto=compress&cs=tinysrgb&w=800",
-          "https://images.pexels.com/photos/2474661/pexels-photo-2474661.jpeg?auto=compress&cs=tinysrgb&w=800",
-        ],
+        images: ["", ""],
       },
       {
         name: "Saint-Jacques en nage glacée",
         price: 85,
-        images: [
-          "https://images.pexels.com/photos/3184194/pexels-photo-3184194.jpeg?auto=compress&cs=tinysrgb&w=800",
-        ],
+        images: [""],
       },
       {
         name: "Canard Apicius aux épices",
         price: 95,
-        images: [
-          "https://images.pexels.com/photos/1640777/pexels-photo-1640777.jpeg?auto=compress&cs=tinysrgb&w=800",
-          "https://images.pexels.com/photos/5718041/pexels-photo-5718041.jpeg?auto=compress&cs=tinysrgb&w=800",
-          "https://images.pexels.com/photos/2474661/pexels-photo-2474661.jpeg?auto=compress&cs=tinysrgb&w=800",
-        ],
+        images: ["", "", ""],
       },
       {
         name: "Mille-feuille à la vanille",
         price: 42,
-        images: [
-          "https://images.pexels.com/photos/3184194/pexels-photo-3184194.jpeg?auto=compress&cs=tinysrgb&w=800",
-        ],
+        images: [""],
       },
     ],
   },
@@ -201,33 +155,22 @@ const restaurantsData: Restaurant[] = [
       {
         name: "Soupe d'artichaut à la truffe noire",
         price: 75,
-        images: [
-          "https://images.pexels.com/photos/5718041/pexels-photo-5718041.jpeg?auto=compress&cs=tinysrgb&w=800",
-          "https://images.pexels.com/photos/2474661/pexels-photo-2474661.jpeg?auto=compress&cs=tinysrgb&w=800",
-        ],
+        images: ["", ""],
       },
       {
         name: "Saint-Jacques en nage glacée",
         price: 85,
-        images: [
-          "https://images.pexels.com/photos/3184194/pexels-photo-3184194.jpeg?auto=compress&cs=tinysrgb&w=800",
-        ],
+        images: [""],
       },
       {
         name: "Canard Apicius aux épices",
         price: 95,
-        images: [
-          "https://images.pexels.com/photos/1640777/pexels-photo-1640777.jpeg?auto=compress&cs=tinysrgb&w=800",
-          "https://images.pexels.com/photos/5718041/pexels-photo-5718041.jpeg?auto=compress&cs=tinysrgb&w=800",
-          "https://images.pexels.com/photos/2474661/pexels-photo-2474661.jpeg?auto=compress&cs=tinysrgb&w=800",
-        ],
+        images: ["", "", ""],
       },
       {
         name: "Mille-feuille à la vanille",
         price: 42,
-        images: [
-          "https://images.pexels.com/photos/3184194/pexels-photo-3184194.jpeg?auto=compress&cs=tinysrgb&w=800",
-        ],
+        images: [""],
       },
     ],
   },
@@ -242,32 +185,22 @@ const restaurantsData: Restaurant[] = [
       {
         name: "Macaroni aux truffes et foie gras",
         price: 98,
-        images: [
-          "https://images.pexels.com/photos/2474661/pexels-photo-2474661.jpeg?auto=compress&cs=tinysrgb&w=800",
-          "https://images.pexels.com/photos/1640777/pexels-photo-1640777.jpeg?auto=compress&cs=tinysrgb&w=800",
-        ],
+        images: ["", ""],
       },
       {
         name: "Bar de ligne en croûte d'herbes",
         price: 78,
-        images: [
-          "https://images.pexels.com/photos/5718041/pexels-photo-5718041.jpeg?auto=compress&cs=tinysrgb&w=800",
-        ],
+        images: [""],
       },
       {
         name: "Pigeon aux épices douces",
         price: 88,
-        images: [
-          "https://images.pexels.com/photos/3184194/pexels-photo-3184194.jpeg?auto=compress&cs=tinysrgb&w=800",
-          "https://images.pexels.com/photos/2474661/pexels-photo-2474661.jpeg?auto=compress&cs=tinysrgb&w=800",
-        ],
+        images: ["", ""],
       },
       {
         name: "Soufflé au Grand Marnier",
         price: 35,
-        images: [
-          "https://images.pexels.com/photos/1640777/pexels-photo-1640777.jpeg?auto=compress&cs=tinysrgb&w=800",
-        ],
+        images: [""],
       },
     ],
   },
