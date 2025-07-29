@@ -25,10 +25,11 @@ const Header: React.FC = () => {
 
           <div className="max-w-3xl mx-auto mb-8">
             <p className="text-lg text-slate-200 leading-relaxed">
-              Passionné de cuisine gastronomique, je parcours les tables
-              d'exception pour partager avec vous mes découvertes culinaires.
-              Entre tradition et innovation, je vous invite à découvrir l'art de
-              la haute gastronomie française et internationale.
+              Passionné de cuisine gastronomique et de bonnes adresses, je
+              parcours les meilleures tables pour partager avec vous mes
+              découvertes culinaires. Entre tradition et innovation, je vous
+              invite à découvrir l'art de la gastronomie française et
+              internationale.
             </p>
           </div>
 
@@ -58,7 +59,7 @@ const Header: React.FC = () => {
               >
                 <path d="M232 64.1c-23.4 0-42.5-19.1-42.5-42.5h-36.6v136.7c0 14.6-11.8 26.5-26.5 26.5s-26.5-11.8-26.5-26.5 11.8-26.5 26.5-26.5c3.3 0 6.4.6 9.3 1.8V96c-3.1-.4-6.2-.6-9.3-.6-33 0-59.8 26.8-59.8 59.8S96.6 215 129.6 215s59.8-26.8 59.8-59.8v-79.5c11.6 9.6 26.4 15.4 42.5 15.4v-27z" />
               </svg>
-              <span>@pierre_le_gourmet</span>
+              <span>@pierre.gourmet</span>
             </a>
 
             <a

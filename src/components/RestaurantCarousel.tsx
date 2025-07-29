@@ -227,8 +227,8 @@ const RestaurantCarousel: React.FC = () => {
             Mes Découvertes Gastronomiques
           </h2>
           <p className="text-xl text-slate-600 max-w-3xl mx-auto">
-            Plongez dans l'univers de la haute gastronomie à travers mes
-            expériences dans les plus grandes tables de la capitale.
+            Plongez dans l'univers de la gastronomie à travers mes expériences à
+            table dans la capitale comme partout ailleurs
           </p>
         </div>
 
