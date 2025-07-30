@@ -1,6 +1,7 @@
 import React from "react";
 import { MapPin, Star, ChefHat, Camera } from "lucide-react";
 import ImageModal from "./ImageModal";
+import { UtensilsCrossed } from "lucide-react";
 
 interface Dish {
   name: string;
@@ -16,6 +17,7 @@ interface Restaurant {
   rating: number;
   image: string;
   dishes: Dish[];
+  menuUrl?: string;
 }
 
 interface RestaurantCardProps {
@@ -108,6 +110,20 @@ const RestaurantCard: React.FC<RestaurantCardProps> = ({ restaurant }) => {
                 <span className="text-lg">Chef {restaurant.chef}</span>
               </div>
             </div>
+
+            {restaurant.menuUrl && (
+              <div className="flex items-center text-slate-600">
+                <UtensilsCrossed size={18} className="mr-2" />
+                <a
+                  href={restaurant.menuUrl}
+                  target="_blank"
+                  rel="noopener noreferrer"
+                  className="text-lg hover:underline hover:text-slate-800 transition"
+                >
+                  Voir le menu
+                </a>
+              </div>
+            )}
 
             {/* Menu Section */}
             <div className="border-t border-slate-200 pt-6">
