@@ -18,6 +18,7 @@ interface Restaurant {
   image: string;
   dishes: Dish[];
   menuUrl?: string;
+  totalPerPerson?: string;
 }
 
 interface RestaurantCardProps {
@@ -34,8 +35,6 @@ const RestaurantCard: React.FC<RestaurantCardProps> = ({ restaurant }) => {
     dishIndex: 0,
     imageIndex: 0,
   });
-
-  const total = restaurant.dishes.reduce((sum, dish) => sum + dish.price, 0);
 
   const openModal = (dishIndex: number, imageIndex: number = 0) => {
     setModalState({
@@ -89,7 +88,7 @@ const RestaurantCard: React.FC<RestaurantCardProps> = ({ restaurant }) => {
             />
             <div className="absolute top-4 right-4 bg-slate-900 text-white px-3 py-1 rounded-full flex items-center space-x-1">
               <Star size={16} className="fill-yellow-400 text-yellow-400" />
-              <span className="font-semibold">{restaurant.rating}/5</span>
+              <span className="font-semibold">{restaurant.rating}/10</span>
             </div>
           </div>
 
@@ -128,7 +127,7 @@ const RestaurantCard: React.FC<RestaurantCardProps> = ({ restaurant }) => {
             {/* Menu Section */}
             <div className="border-t border-slate-200 pt-6">
               <h4 className="text-xl font-semibold text-slate-900 mb-4">
-                Menu dégustation
+                L'addition de Pierre
               </h4>
               <div className="space-y-3">
                 {restaurant.dishes.map((dish, index) => (
@@ -160,10 +159,10 @@ const RestaurantCard: React.FC<RestaurantCardProps> = ({ restaurant }) => {
               <div className="mt-6 pt-4 border-t-2 border-slate-900">
                 <div className="flex justify-between items-center">
                   <span className="text-xl font-bold text-slate-900">
-                    Total
+                    Total moyen par personne
                   </span>
                   <span className="text-2xl font-bold text-slate-900">
-                    {total}€
+                    {restaurant.totalPerPerson || "—"}
                   </span>
                 </div>
               </div>
