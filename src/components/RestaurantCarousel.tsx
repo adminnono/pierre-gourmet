@@ -57,23 +57,13 @@ const restaurantsData: Restaurant[] = [
     chef: "Hugo Roellinger",
     rating: "8,5",
     image: "./images/coquillage.png",
-    totalPerPerson: "0 €",
+    totalPerPerson: "255€",
     menuUrl: "https://www.maisons-de-bricourt.com/fr/page/le-coquillage",
     dishes: [
       {
-        name: "Les Entrées",
-        price: "12 - 22",
+        name: "Menu Au Gré du Vent et de la Lune",
+        price: "255",
         images: ["", ""],
-      },
-      {
-        name: "Les Plats",
-        price: "28 - 88",
-        images: [""],
-      },
-      {
-        name: "Les Desserts",
-        price: "14 - 20",
-        images: ["", "", ""],
       },
     ],
   },
