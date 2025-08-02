@@ -159,7 +159,7 @@ const RestaurantCard: React.FC<RestaurantCardProps> = ({ restaurant }) => {
               <div className="mt-6 pt-4 border-t-2 border-slate-900">
                 <div className="flex justify-between items-center">
                   <span className="text-xl font-bold text-slate-900">
-                    Total moyen par personne
+                    Par personne
                   </span>
                   <span className="text-2xl font-bold text-slate-900">
                     {restaurant.totalPerPerson || "—"}

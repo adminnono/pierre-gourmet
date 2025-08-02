@@ -30,7 +30,7 @@ const Footer: React.FC = () => {
                 rel="noopener noreferrer"
                 className="underline hover:text-slate-400"
               >
-                artisanpro.fr
+                ArtisanPro.fr
               </a>
             </p>
           </div>
