@@ -185,13 +185,23 @@ const restaurantsData: Restaurant[] = [
     chef: "Saayaan",
     rating: "8,5",
     image: "./images/ora.png",
-    totalPerPerson: "38€",
+    totalPerPerson: "40€",
     menuUrl: "https://orafarmhouse.com/menus/",
     dishes: [
       {
-        name: "Brunch du dimanche",
-        price: "38",
+        name: "Les Entrées",
+        price: "8 - 18",
         images: ["", ""],
+      },
+      {
+        name: "Les Plats",
+        price: "14 - 26",
+        images: [""],
+      },
+      {
+        name: "Les Desserts",
+        price: "8 - 12",
+        images: ["", "", ""],
       },
     ],
   },
