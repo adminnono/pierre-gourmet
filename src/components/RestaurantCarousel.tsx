@@ -68,7 +68,7 @@ const restaurantsData: Restaurant[] = [
     ],
   },
   {
-    id: 2,
+    id: 3,
     name: "Le Pincemin",
     location: "10 Bd du Roi, 78000 Versailles",
     chef: "Xavier Pincemin",
@@ -95,7 +95,7 @@ const restaurantsData: Restaurant[] = [
     ],
   },
   {
-    id: 3,
+    id: 4,
     name: "Bonhomie",
     location: "22 Rue d'Enghien, 75010 Paris",
     chef: "Quentin Mauro",
@@ -123,7 +123,7 @@ const restaurantsData: Restaurant[] = [
     ],
   },
   {
-    id: 3,
+    id: 5,
     name: "Ischia",
     location: "14 Rue Cauchy, 75015 Paris",
     chef: "Denny Imbroisi",
@@ -151,7 +151,7 @@ const restaurantsData: Restaurant[] = [
     ],
   },
   {
-    id: 3,
+    id: 6,
     name: "Vive",
     location: "62 Av. des Ternes, 75017 Paris",
     chef: "Stéphanie Le Quellec",
@@ -179,7 +179,7 @@ const restaurantsData: Restaurant[] = [
     ],
   },
   {
-    id: 4,
+    id: 7,
     name: "Ora Farmhouse",
     location: "Parc des Buttes-Chaumont, 75019 Paris",
     chef: "Saayaan",
@@ -206,7 +206,7 @@ const restaurantsData: Restaurant[] = [
     ],
   },
   {
-    id: 4,
+    id: 8,
     name: "Monsieur Claude",
     location: "Pl. Line Renaud, 92500 Rueil-Malmaison",
     chef: "Danny Khezzar",
@@ -223,7 +223,7 @@ const restaurantsData: Restaurant[] = [
     ],
   },
   {
-    id: 4,
+    id: 9,
     name: "Le Logis Sainte Catherine",
     location: "50170 Mont Saint-Michel",
     chef: "Jean Imbert",
@@ -250,7 +250,7 @@ const restaurantsData: Restaurant[] = [
     ],
   },
   {
-    id: 4,
+    id: 10,
     name: "Le Bistrot des Chefs",
     location: "29 Quai Gallieni, 92150 Suresnes",
     chef: "Candidat de Top Chef",
@@ -277,7 +277,7 @@ const restaurantsData: Restaurant[] = [
     ],
   },
   {
-    id: 4,
+    id: 11,
     name: "Lava",
     location: "9 Rue de la Montagne, 75005 Paris",
     chef: "Wilfried Romain",
@@ -304,7 +304,7 @@ const restaurantsData: Restaurant[] = [
     ],
   },
   {
-    id: 4,
+    id: 12,
     name: "Quelque part...",
     location: "1 Rue Ambroise Thomas, 75009 Paris",
     chef: "Florian Barbarot",
@@ -331,7 +331,7 @@ const restaurantsData: Restaurant[] = [
     ],
   },
   {
-    id: 4,
+    id: 13,
     name: "Louis Vuitton",
     location: "2 Rue du Pont Neuf, Paris",
     chef: "Maxime Frédéric",
@@ -359,7 +359,7 @@ const restaurantsData: Restaurant[] = [
     ],
   },
   {
-    id: 4,
+    id: 14,
     name: "Yaya",
     location: "33 avenue Secretan, 75019 Paris",
     chef: "Juan Arbelaez",
@@ -387,7 +387,7 @@ const restaurantsData: Restaurant[] = [
     ],
   },
   {
-    id: 4,
+    id: 15,
     name: "Starving Club",
     location: "35 boulevard Haussmann, 75009 Paris",
     chef: "Thibaut Spiwack",
@@ -415,7 +415,7 @@ const restaurantsData: Restaurant[] = [
     ],
   },
   {
-    id: 4,
+    id: 16,
     name: "MoSugo",
     location: "22 Rue Raymond Losserand, 75014 Paris",
     chef: "Mory Sakho",
@@ -442,7 +442,7 @@ const restaurantsData: Restaurant[] = [
     ],
   },
   {
-    id: 4,
+    id: 17,
     name: "Bazurto",
     location: "5 Rue de l'Ancienne Comédie, 75006 Paris",
     chef: "Juan Arbelaez",
@@ -470,7 +470,7 @@ const restaurantsData: Restaurant[] = [
     ],
   },
   {
-    id: 4,
+    id: 18,
     name: "Liquide",
     location: "39 Rue de l'Arbre Sec, 75001 Paris",
     chef: "Matthias Marc",
@@ -497,7 +497,7 @@ const restaurantsData: Restaurant[] = [
     ],
   },
   {
-    id: 4,
+    id: 19,
     name: "Panade",
     location: "35 Rue Violet, 75015 Paris",
     chef: "Merouan Bounekraf",
@@ -519,7 +519,7 @@ const restaurantsData: Restaurant[] = [
     ],
   },
   {
-    id: 4,
+    id: 20,
     name: "Restaurant & Bar 19.20",
     location: "33 Av. George V, 75008 Paris",
     chef: "Norbert Tarayre",
@@ -546,7 +546,7 @@ const restaurantsData: Restaurant[] = [
     ],
   },
   {
-    id: 4,
+    id: 21,
     name: "Pierre Sang",
     location: "55 Rue Oberkampf, 75011 Paris",
     chef: "Pierre Sang",
@@ -563,7 +563,7 @@ const restaurantsData: Restaurant[] = [
     ],
   },
   {
-    id: 4,
+    id: 22,
     name: "Meida",
     location: "93400 Saint-Ouen-sur-Seine",
     chef: "Mohamed Cheikh",
