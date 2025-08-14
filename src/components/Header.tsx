@@ -11,7 +11,7 @@ const Header: React.FC = () => {
         <div className="text-center">
           <div className="flex justify-center mb-6">
             <img
-              src="./images/logo.jpeg"
+              src="/images/logo.jpeg"
               alt="Logo Pierre Gourmet"
               className="w-32 h-32 rounded-full object-cover shadow-lg"
             />
@@ -69,6 +69,42 @@ const Header: React.FC = () => {
               <Mail size={20} />
               <span>pierre.brth@icloud.com</span>
             </a>
+            <button
+              onClick={() => {
+                const shareData = {
+                  title: "Test Pierre — Démo",
+                  text: "Jette un œil à cette page :",
+                  url: "https://test-pierre.vercel.app/",
+                };
+
+                if (navigator.share) {
+                  navigator.share(shareData).catch(console.error);
+                } else {
+                  navigator.clipboard.writeText(shareData.url).then(() => {
+                    alert("Lien copié dans le presse-papiers !");
+                  });
+                }
+              }}
+              className="flex items-center space-x-2 bg-slate-800 hover:bg-slate-700 px-5 py-2.5 rounded-full transition-colors duration-300 text-sm sm:text-base"
+            >
+              <svg
+                xmlns="http://www.w3.org/2000/svg"
+                viewBox="0 0 24 24"
+                fill="none"
+                stroke="currentColor"
+                strokeWidth="2"
+                strokeLinecap="round"
+                strokeLinejoin="round"
+                className="w-5 h-5"
+              >
+                <circle cx="18" cy="5" r="3" />
+                <circle cx="6" cy="12" r="3" />
+                <circle cx="18" cy="19" r="3" />
+                <line x1="8.59" y1="13.51" x2="15.42" y2="17.49" />
+                <line x1="15.41" y1="6.51" x2="8.59" y2="10.49" />
+              </svg>
+              <span>Partager</span>
+            </button>
           </div>
         </div>
       </div>

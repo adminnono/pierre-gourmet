@@ -12,12 +12,6 @@ const Footer: React.FC = () => {
             bonheur. »
           </p>
 
-          <div className="flex items-center justify-center space-x-2 text-slate-400">
-            <span>Fait avec</span>
-            <Heart size={18} className="fill-red-500 text-red-500" />
-            <span>pour la gastronomie française</span>
-          </div>
-
           <div className="mt-6 pt-6 border-t border-slate-800">
             <p className="text-sm text-slate-500">
               © 2025 Pierre Gourmet. Tous droits réservés.
