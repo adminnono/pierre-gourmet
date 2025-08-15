@@ -54,9 +54,11 @@ const Navigation: React.FC = () => {
                   className="w-full h-full object-cover rounded-full"
                 />
               </div>
-              <span className="text-xl font-bold text-gray-900">
-                Pierre Gourmet
-              </span>
+              <Link to="/" className="text-xl font-bold text-gray-900">
+                <span className="text-xl font-bold text-gray-900">
+                  Pierre Gourmet
+                </span>
+              </Link>
             </div>
 
             {/* Navigation Items */}
@@ -97,9 +99,11 @@ const Navigation: React.FC = () => {
                   className="w-full h-full object-cover rounded-full"
                 />
               </div>
-              <span className="text-lg font-bold text-gray-900">
-                Pierre Gourmet
-              </span>
+              <Link to="/" className="text-xl font-bold text-gray-900">
+                <span className="text-lg font-bold text-gray-900">
+                  Pierre Gourmet
+                </span>
+              </Link>
             </div>
 
             {/* Mobile Menu Button */}
